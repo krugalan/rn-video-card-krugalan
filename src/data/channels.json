@@ -1,0 +1,52 @@
+[
+  {
+    "id": "espn-nba-finals",
+    "channelName": "ESPN",
+    "channelInitials": "ES",
+    "channelColor": "#e94560",
+    "programTitle": "NBA Finals Game 7",
+    "programDescription": "Live coverage of the decisive Game 7 between the Boston Celtics and the Los Angeles Lakers. Full pre-game analysis, halftime show, and post-game interviews included.",
+    "durationMinutes": 120,
+    "elapsedMinutes": 45
+  },
+  {
+    "id": "hbo-tlou-s2e03",
+    "channelName": "HBO",
+    "channelInitials": "HB",
+    "channelColor": "#7b2d8e",
+    "programTitle": "The Last of Us S2E03",
+    "programDescription": "Joel and Ellie face new challenges in the quarantine zone as tensions rise between factions.",
+    "durationMinutes": 58,
+    "elapsedMinutes": 52
+  },
+  {
+    "id": "discovery-planet-earth",
+    "channelName": "Discovery",
+    "channelInitials": "DC",
+    "channelColor": "#1a8f3c",
+    "programTitle": "Planet Earth III",
+    "programDescription": "Sir David Attenborough narrates the extraordinary journeys of animals across the most extreme landscapes on our planet.",
+    "durationMinutes": 90,
+    "elapsedMinutes": 0
+  },
+  {
+    "id": "netflix-stranger-things",
+    "channelName": "Netflix",
+    "channelInitials": "NX",
+    "channelColor": "#e50914",
+    "programTitle": "Stranger Things S5E01",
+    "programDescription": "The gang reunites in Hawkins for one final battle against the Upside Down. New alliances form as old enemies resurface.",
+    "durationMinutes": 75,
+    "elapsedMinutes": 30
+  },
+  {
+    "id": "cnn-breaking-news",
+    "channelName": "CNN",
+    "channelInitials": "CN",
+    "channelColor": "#cc0000",
+    "programTitle": "Breaking News Live",
+    "programDescription": "24-hour coverage of developing stories around the world with expert analysis and on-the-ground reporting.",
+    "durationMinutes": 60,
+    "elapsedMinutes": 42
+  }
+]
