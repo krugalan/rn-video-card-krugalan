@@ -7,7 +7,8 @@
     "programTitle": "NBA Finals Game 7",
     "programDescription": "Live coverage of the decisive Game 7 between the Boston Celtics and the Los Angeles Lakers. Full pre-game analysis, halftime show, and post-game interviews included.",
     "durationMinutes": 120,
-    "elapsedMinutes": 45
+    "elapsedMinutes": 45,
+    "startingTime": 1020
   },
   {
     "id": "hbo-tlou-s2e03",

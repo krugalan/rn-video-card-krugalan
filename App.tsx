@@ -17,17 +17,20 @@ export default function App() {
   const keyExtractor = useCallback((item: ChannelItem) => item.id, []);
 
   const renderItem = useCallback(
-    ({ item }: ListRenderItemInfo<ChannelItem>) => (
-      <VideoPlayerCard
-        channelName={item.channelName}
-        channelInitials={item.channelInitials}
-        channelColor={item.channelColor}
-        programTitle={item.programTitle}
-        programDescription={item.programDescription}
-        durationMinutes={item.durationMinutes}
-        elapsedMinutes={item.elapsedMinutes}
-      />
-    ),
+    ({ item }: ListRenderItemInfo<ChannelItem>) => {
+      const elapsedMinutes = Date.now() / 60000 - (item?.startingTime || 1020);
+      return (
+        <VideoPlayerCard
+          channelName={item.channelName}
+          channelInitials={item.channelInitials}
+          channelColor={item.channelColor}
+          programTitle={item.programTitle}
+          programDescription={item.programDescription}
+          durationMinutes={item.durationMinutes}
+          elapsedMinutes={elapsedMinutes}
+        />
+      );
+    },
     [],
   );
 

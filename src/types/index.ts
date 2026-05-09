@@ -19,6 +19,8 @@ export interface ChannelItem {
   durationMinutes: number;
   /** Elapsed time in minutes */
   elapsedMinutes: number;
+  /** Starting time of the program in milliseconds */
+  startingTime?: number;
 }
 
 /**
